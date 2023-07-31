@@ -1,0 +1,28 @@
+computePayRoll() {
+Full-time teacher:
+return 32 * degreeRate * 2 * 0.85
+Part-time teacher;
+return workload * degreeRate * 2 * 0.76
+Staff:
+return workload * 32 * 2 * 0.75
+}
+
+nextID() {
+Loop thru teachers or staff
+Save the highest ID number
+return that number + 1
+}
+
+setLists() {
+Loops thru teachers and deans
+If they have matching ID
+Then add them to that department
+}
+
+defineWorkload() {
+If workload >= 32
+then return "full-time"
+else
+return "part-time"
+}
+

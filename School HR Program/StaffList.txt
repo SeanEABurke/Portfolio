@@ -1,0 +1,6 @@
+101,Monty Burns,1907-04-04,123 Fake St.,M,Principal,32.0,1,
+102,Ralph Wiggum,1987-04-04,123 Fake St.,M,Human Resources,32.0,1,
+103,Helen Lovejoy,1967-04-04,123 Fake St.,F,Coordinator,32.0,1,
+104,Moe Syzlak,1967-04-04,123 Fake St.,M,Receptionist,32.0,1,
+105,Carl Carlson,1971-09-09,123 Fake St.,M,Accounting,32.0,1,
+106,Maude Flanders,1965-02-09,123 Fake St.,F,Events,20.0,1,
