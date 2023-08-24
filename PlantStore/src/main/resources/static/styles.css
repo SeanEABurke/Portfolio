@@ -1,0 +1,45 @@
+html body {
+    background-image: url("images/plantbg.jpg");
+}
+
+.navbar-nav li {
+    padding: 10px 10px;
+    color: white;
+}
+
+
+.navbar-nav li a {
+    color: white;
+    margin-top: 10px;
+}
+
+.navbar-nav li p {
+    color: white;
+    font-size: large;
+    text-decoration: wavy;
+}
+
+.navbar-brand {
+    padding-left: 10px;
+}
+
+.card-img-top {
+    height: 250px; 
+    object-fit: cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+
+.mb-4 {
+    border-radius: 20px;
+}
+
+h1 {
+    padding-bottom: 2vh;
+}
+
+.bg-form {
+    background-color: rgba(169, 172, 25, 0.319);
+    border-radius: 20px;
+    padding: 40px;
+}

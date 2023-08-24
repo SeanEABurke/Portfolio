@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<link lang="en">
+  <link>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plant Shop</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="styles.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> </link>
+  </head>
+  <body>
+    <form id="logoutForm">
+    </form>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><i class="fa-solid fa-leaf"></i> Plant Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li id="navbarUsername"></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="login.html">Log in</a></li>
+            <li><a href="#" onclick="submitLogoutForm()">Log out</a></li>
+            <li><a href="checkout.html">Shopping Cart</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Product Listing -->
+    <div class="container mt-4">
+      <h1 class="text-center text-dark">Our Plants</h1>
+      <div class="d-flex flex-wrap">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/spider.jpg" class="card-img-top" alt="Plant Image" />
+            <div class="card-body">
+              <h5 class="card-title">Spider Plant</h5>
+              <p class="card-text">$10</p>
+              <p class="card-text">Description of the plant.</p>
+              <button class="btn btn-primary btn-block" value="1" onclick="addToCart(this.value)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/snake.jpg" class="card-img-top" alt="Plant Image" />
+            <div class="card-body">
+              <h5 class="card-title">Snake Plant</h5>
+              <p class="card-text">$10</p>
+              <p class="card-text">Description of the plant.</p>
+              <button class="btn btn-primary btn-block" value="2" onclick="addToCart(this.value)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/pilea.jpg" class="card-img-top" alt="Plant Image" />
+            <div class="card-body">
+              <h5 class="card-title">Pilea</h5>
+              <p class="card-text">$5</p>
+              <p class="card-text">Description of the plant.</p>
+              <button class="btn btn-primary btn-block" value="3" onclick="addToCart(this.value)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/pl.jpg" class="card-img-top" alt="Plant Image" />
+            <div class="card-body">
+              <h5 class="card-title">Peace Lily</h5>
+              <p class="card-text">$8</p>
+              <p class="card-text">Description of the plant.</p>
+              <button class="btn btn-primary btn-block addToCartButton" value="4" onclick="addToCart(this.value)" >Add to Cart</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/av.jpg" class="card-img-top" alt="Plant Image" />
+            <div class="card-body">
+              <h5 class="card-title">African Violet</h5>
+              <p class="card-text">$8</p>
+              <p class="card-text">Description of the plant.</p>
+              <button class="btn btn-primary btn-block" value="5" onclick="addToCart(this.value)">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
